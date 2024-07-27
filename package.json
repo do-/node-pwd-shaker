@@ -1,0 +1,40 @@
+{
+  "name": "pwd-shaker",
+  "version": "1.0.0",
+  "description": "password hashing with salt, pepper",
+  "main": "index.js",
+  "files": ["/lib", "/badges"],
+  "scripts": {
+    "test": "jest",
+    "test-ci": "jest --ci --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+	  "coverageReporters": ["clover", "json", "lcov", "text", "json-summary"],
+  	"verbose": false,
+  	"testPathIgnorePatterns": [
+  		"/node_modules/"
+  	]
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-/node-pwd-shaker.git"
+  },
+  "keywords": [
+    "password",
+    "hash",
+    "salt",
+    "pepper"
+  ],
+  "author": "Dmitry Ovsyanko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/do-/node-pwd-shaker/issues"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "homepage": "https://github.com/do-/node-pwd-shaker#readme"
+}

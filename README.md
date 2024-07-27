@@ -1,3 +1,6 @@
+![workflow](https://github.com/do-/node-pwd-shaker/actions/workflows/main.yml/badge.svg)
+![Jest coverage](./badges/coverage-jest%20coverage.svg)
+
 `pwd-shaker` is a node.js library simpifying some routine tasks related to one-way password encryption (hash computing).
 
 It is totally based on the standard [crypto](https://nodejs.org/api/crypto.html) module and use no external dependencies.
